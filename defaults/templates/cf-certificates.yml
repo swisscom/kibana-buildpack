@@ -1,0 +1,5 @@
+{{- $certs := default .Env.K_CERTS "" -}}
+{{- if ne $certs "" -}}
+elasticsearch.ssl.certificateAuthorities: {{ jsonQuery $certs `[]`}}
+elasticsearch.ssl.verificationMode: "none"
+{{- end -}}

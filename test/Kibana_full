@@ -1,0 +1,21 @@
+---
+log-level: Info
+version: 6.0.0
+cmd-args: ""
+node-options: ""
+reserved-memory: 300
+heap-percentage: 75
+enable-service-fallback: true
+config-templates:
+- name: cf-kibana
+  service-instance-name: my-elasticsearch
+x-pack:
+  management:
+    enabled: false
+    collection-interval: 10s
+  monitoring:
+    enabled: false
+    collection-interval: 10s
+plugins:
+certificates:
+- elasticsearch

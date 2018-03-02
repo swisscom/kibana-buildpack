@@ -1,0 +1,18 @@
+---
+alias:
+  credentials-host-field: host
+  credentials-username-field: username
+  credentials-password-field: password
+templates:
+- name: cf-kibana
+  type: config
+  is-default: true
+  is-fallback: false
+  tags:
+  - elasticsearch
+  - elastic
+  plugins:
+- name: cf-certificates
+  type: certificates
+  is-default: true
+
