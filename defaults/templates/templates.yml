@@ -1,8 +1,8 @@
 ---
 alias:
   credentials-host-field: host
-  credentials-username-field: username
-  credentials-password-field: password
+  credentials-username-field: ece_kibana_system_username
+  credentials-password-field: ece_kibana_system_password
 templates:
 - name: cf-kibana
   type: config
