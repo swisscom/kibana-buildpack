@@ -1,7 +1,5 @@
 # Kibana Buildpack for Cloud Foundry
 
-**WARNING**: This is work in progress, do not use in production.
-
 This buildpack allows to deploy [Kibana](https://www.elastic.co/products/kibana) as an app in Cloud Foundry.
 
 
