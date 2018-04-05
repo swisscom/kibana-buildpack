@@ -149,7 +149,7 @@ Put any additional required plugin (*.gem or *.zip) in this folder. Also define 
 To deploy the Kibana app to Cloud Foundry using this buildpack, use the following command:
 
 ```
-cf push -b https://github.com/swisscom/cf-buildpack-kibana.git
+cf push -b https://github.com/swisscom/kibana-buildpack.git
 ```
 
 
