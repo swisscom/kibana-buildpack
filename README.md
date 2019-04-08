@@ -1,3 +1,6 @@
+# Deprication Notice
+This buildpack is no longer maintained. Please use the official Docker images instead.
+
 # Kibana Buildpack for Cloud Foundry
 
 This buildpack allows to deploy [Kibana](https://www.elastic.co/products/kibana) as an app in Cloud Foundry.
