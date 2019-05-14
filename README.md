@@ -1,5 +1,6 @@
 # Deprication Notice
 This buildpack is no longer maintained. Please use the official Docker images instead.
+https://docs.developer.swisscom.com/service-offerings/kibana-docker.html
 
 # Kibana Buildpack for Cloud Foundry
 
