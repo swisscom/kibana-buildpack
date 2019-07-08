@@ -1,5 +1,7 @@
 # Deprication Notice
-This buildpack is no longer maintained. Please use the official Docker images instead.
+## This buildpack is no longer maintained. Please use the official Docker images instead.
+## [Here is a guide on how to run Kibana as a docker image on CloudFoundry](https://docs.developer.swisscom.com/service-offerings/kibana-docker.html)
+
 
 # Kibana Buildpack for Cloud Foundry
 
